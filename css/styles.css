@@ -2,27 +2,27 @@
 
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url("/fonts/OpenSans-Bold.ttf");
+  src: url("../fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-family: "OpenSans-ExtraBold";
-  src: url("/fonts/OpenSans-ExtraBold.ttf");
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
 }
 
 @font-face {
   font-family: "OpenSans-Regular";
-  src: url("/fonts/OpenSans-Regular.ttf");
+  src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "OpenSans-Light";
-  src: url("/fonts/OpenSans-Light.ttf");
+  src: url("../fonts/OpenSans-Light.ttf");
 }
 
 @font-face {
   font-family: "SourceSansPro-Regular";
-  src: url("/fonts/SourceSansPro-Regular.ttf");
+  src: url("../fonts/SourceSansPro-Regular.ttf");
 }
 
 body {
@@ -57,7 +57,7 @@ a {
 }
 
 body {
-  background: url("/assets/bacground/bgn.png");
+  background: url("../assets/bacground/bgn.png");
 }
 
 i {
@@ -246,7 +246,7 @@ i {
   justify-content: center;
 }
 .bunner_buttons {
-  background: url("/assets/bacground/bgn.png");
+  background: url("../assets/bacground/bgn.png");
   margin: 0px auto;
   border: 1px groove #f5ece5;
   border-top: none;
@@ -373,13 +373,13 @@ i {
 }
 
 #i1.button_image {
-  background: url("/assets/row1/r1_03.png") center center no-repeat;
+  background: url("../assets/row1/r1_03.png") center center no-repeat;
 }
 #i2.button_image {
-  background: url("/assets/row1/r1_02.png") center center no-repeat;
+  background: url("../assets/row1/r1_02.png") center center no-repeat;
 }
 #i3.button_image {
-  background: url("/assets/row1/r1_01.png") center center no-repeat;
+  background: url("../assets/row1/r1_01.png") center center no-repeat;
 }
 
 @media (max-width: 1200px) {
@@ -639,6 +639,17 @@ button.form_submit {
     font-size: 14px;
     margin: 0px 0px 10px 0px;
   }
+
+  .form_container {
+    margin-left: -20px;
+  }
+  .pre_form {
+    width: 20px;
+    transform: skewY(20deg);
+    margin-bottom: 4px;
+    margin-top: -3px;
+  }
+
   .form_name input,
   .form_email input {
     width: 180px;
