@@ -2,27 +2,27 @@
 
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url("/fonts/OpenSans-Bold.ttf");
+  src: url("psd10_website/fonts/OpenSans-Bold.ttf");
 }
 
 @font-face {
   font-family: "OpenSans-ExtraBold";
-  src: url("/fonts/OpenSans-ExtraBold.ttf");
+  src: url("psd10_website/fonts/OpenSans-ExtraBold.ttf");
 }
 
 @font-face {
   font-family: "OpenSans-Regular";
-  src: url("/fonts/OpenSans-Regular.ttf");
+  src: url("psd10_website/fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
   font-family: "OpenSans-Light";
-  src: url("/fonts/OpenSans-Light.ttf");
+  src: url("psd10_website/fonts/OpenSans-Light.ttf");
 }
 
 @font-face {
   font-family: "SourceSansPro-Regular";
-  src: url("/fonts/SourceSansPro-Regular.ttf");
+  src: url("psd10_website/fonts/SourceSansPro-Regular.ttf");
 }
 
 body {
@@ -57,7 +57,7 @@ a {
 }
 
 body {
-  background: url("/assets/bacground.png");
+  background: url("psd10_website/assets/bacground.png");
 }
 
 i {
@@ -246,7 +246,7 @@ i {
   justify-content: center;
 }
 .bunner_buttons {
-  background: url("/assets/bacground.png");
+  background: url("psd10_website/assets/bacground.png");
   margin: 0px auto;
   border: 1px groove #f5ece5;
   border-top: none;
@@ -373,13 +373,13 @@ i {
 }
 
 #i1.button_image {
-  background: url("/assets/row1/03.png") center center no-repeat;
+  background: url("psd10_website/assets/row1/03.png") center center no-repeat;
 }
 #i2.button_image {
-  background: url("/assets/row1/02.png") center center no-repeat;
+  background: url("psd10_website/assets/row1/02.png") center center no-repeat;
 }
 #i3.button_image {
-  background: url("/assets/row1/01.png") center center no-repeat;
+  background: url("psd10_website/assets/row1/01.png") center center no-repeat;
 }
 
 @media (max-width: 1200px) {
