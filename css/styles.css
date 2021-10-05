@@ -539,6 +539,7 @@ i {
   margin-bottom: 12px;
   margin-top: -11px;
   box-shadow: inherit;
+  z-index: 1000;
 }
 
 .form_title {
@@ -690,7 +691,7 @@ button.form_submit {
   }
   .form_name input,
   .form_email input {
-    width: 108px;
+    width: 180px;
   }
   .form_text textarea {
     width: 208px;
