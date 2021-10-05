@@ -57,7 +57,7 @@ a {
 }
 
 body {
-  background: url("./assets/bacground.png");
+  background: url("/assets/bacground.png");
 }
 
 i {
@@ -246,7 +246,7 @@ i {
   justify-content: center;
 }
 .bunner_buttons {
-  background: url("./assets/bacground.png");
+  background: url("/assets/bacground.png");
   margin: 0px auto;
   border: 1px groove #f5ece5;
   border-top: none;
@@ -373,13 +373,13 @@ i {
 }
 
 #i1.button_image {
-  background: url("./assets/row1/03.png") center center no-repeat;
+  background: url("/assets/row1/03.png") center center no-repeat;
 }
 #i2.button_image {
-  background: url("./assets/row1/02.png") center center no-repeat;
+  background: url("/assets/row1/02.png") center center no-repeat;
 }
 #i3.button_image {
-  background: url("./assets/row1/01.png") center center no-repeat;
+  background: url("/assets/row1/01.png") center center no-repeat;
 }
 
 @media (max-width: 1200px) {
