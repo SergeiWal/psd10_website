@@ -136,6 +136,10 @@ i {
   color: #6c354c;
 }
 
+.menu_item a:hover {
+  color: #dc5e81;
+}
+
 .active a {
   color: #dc5e81;
 }
@@ -355,13 +359,22 @@ i {
 }
 
 .row_button {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 80px;
   height: 80px;
-  background: #e8d6c8;
+  background: transparent;
   cursor: pointer;
   border: 3px solid #cfb8a6;
   border-radius: 50%;
+  font-size: 20px;
+  color: #da4271;
+}
+
+.row_button:hover {
+  font-size: 24px;
+  /*border-color: #c0ab9b;*/
 }
 
 .row_buttons > *:not(:last-child) {
@@ -370,16 +383,6 @@ i {
 
 .row_buttons > *:last-child {
   margin-right: 30px;
-}
-
-#i1.button_image {
-  background: url("../assets/row1/r1_03.png") center center no-repeat;
-}
-#i2.button_image {
-  background: url("../assets/row1/r1_02.png") center center no-repeat;
-}
-#i3.button_image {
-  background: url("../assets/row1/r1_01.png") center center no-repeat;
 }
 
 @media (max-width: 1200px) {
@@ -450,6 +453,10 @@ i {
   z-index: 1000;
 }
 
+.card_button:hover {
+  font-size: 18px;
+}
+
 .card_button i {
   color: #fff;
 }
@@ -514,6 +521,10 @@ i {
   color: #da4271;
 }
 
+.more_button:hover {
+  background: #4f1932;
+}
+
 /*----FORM-----*/
 .form_fields {
   display: flex;
@@ -570,12 +581,14 @@ i {
 .form_email input {
   font-family: "SourceSansPro-Regular";
   background: #da4271;
-  color: #e782a1;
+  color: #fff;
   width: 205px;
   height: 36px;
   font-size: 15px;
   border: 1px solid rgba(255, 255, 255, 0.34);
   margin-top: 20px;
+  padding-left: 10px;
+  outline: none;
 }
 
 .form_name input::placeholder,
@@ -593,13 +606,22 @@ i {
 .form_text textarea {
   font-family: "SourceSansPro-Regular";
   background: #da4271;
-  color: #e782a1;
-  width: 245px;
+  color: #fff;
+  width: 202px;
   height: 75px;
   font-size: 15px;
   border: 1px solid rgba(255, 255, 255, 0.34);
   margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 45px;
   resize: none;
+  outline: none;
+}
+
+.form_name input:focus,
+.form_email input:focus,
+.form_text textarea:focus {
+  border: 1px solid #d66767;
 }
 
 button.form_submit {
@@ -607,10 +629,14 @@ button.form_submit {
   font-family: "OpenSans-ExtraBold";
   font-size: 14px;
   color: #fff;
-  border: 1px solid #d66767;
+  border: 1px solid rgba(255, 255, 255, 0.34);
   padding: 14px 18px;
   margin-top: 20px;
   cursor: pointer;
+}
+
+button.form_submit:hover {
+  border-color: #d66767;
 }
 
 @media (max-width: 1200px) {
@@ -658,10 +684,10 @@ button.form_submit {
     margin-top: 15px;
   }
   .form_text textarea {
-    width: 208px;
+    width: 180px;
     height: 65px;
     font-size: 15px;
-
+    padding-right: 30px;
     margin-top: 15px;
   }
 
@@ -694,7 +720,8 @@ button.form_submit {
     width: 180px;
   }
   .form_text textarea {
-    width: 208px;
+    width: 180px;
+    padding-right: 30px;
   }
 
   .pre_form {
@@ -714,8 +741,9 @@ button.form_submit {
     margin-top: 20px;
   }
   .form_text textarea {
-    width: 345px;
+    width: 305px;
     height: 85px;
+    padding-right: 40px;
     margin-top: 20px;
   }
 
@@ -782,6 +810,10 @@ button.form_submit {
   color: inherit;
 }
 
+.more_info a:hover {
+  color: #da4271;
+}
+
 .row_button.date_button {
   display: flex;
   flex-direction: column;
@@ -793,6 +825,7 @@ button.form_submit {
   color: #fff;
   text-align: center;
   border: none;
+  cursor: default;
 }
 
 .date_button .month {
@@ -867,6 +900,10 @@ button.form_submit {
   font-size: 15px;
   line-height: 20px;
   color: #8f6f7e;
+}
+
+.lorem_text:hover a {
+  color: #da4271;
 }
 
 .lorem_icon {
@@ -976,6 +1013,10 @@ button.form_submit {
   padding: 15px 0px 10px 10px;
   margin-top: 28px;
   justify-self: flex-end;
+}
+
+.footer_button:hover {
+  background: #4f1932;
 }
 
 .footer_button i {
