@@ -60,6 +60,9 @@
 }
 /*-----------------BANNER--------------------*/
 @media (max-width: 1200px) {
+  .banner {
+    padding: 5px 0px;
+  }
   .main_title {
     font-size: 20px;
     padding: 10px 15px 10px 10px;
@@ -69,9 +72,16 @@
     font-size: 16px;
     padding: 10px 15px 10px 10px;
   }
+  .bunner_buttons {
+    padding: 0px 10px 5px 10px;
+  }
 }
 
 @media (max-width: 900px) {
+  .banner_current {
+    padding: 0px;
+  }
+
   .banner_title {
     margin: -15% 0px 0px 0px;
   }
@@ -88,11 +98,11 @@
   }
 
   .bunner_buttons {
-    padding: 1px 7px 3px 7px;
+    padding: 0px 10px 5px 10px;
   }
   .bunner_button {
-    width: 5px;
-    height: 5px;
+    width: 10px;
+    height: 10px;
   }
 }
 
@@ -109,6 +119,13 @@
     font-size: 14px;
     padding: 5px 10px 5px 5px;
   }
+  .bunner_buttons {
+    padding: 0px 5px 5px 5px;
+  }
+  .bunner_button {
+    height: 7px;
+    border-radius: 100%;
+  }
 }
 /*----------------FIRST_ROW-----------------------------*/
 @media (max-width: 1200px) {
@@ -121,6 +138,7 @@
   .row_button {
     width: 60px;
     height: 60px;
+    font-size: 18px;
   }
 }
 
@@ -164,9 +182,8 @@
     margin-top: 15px;
   }
   .more_button {
-    width: 68px;
-    height: 25px;
-    font-size: 14px;
+    width: 78px;
+    height: 32px;
     margin: 0px 0px 10px 0px;
   }
 

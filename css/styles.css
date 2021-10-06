@@ -1,18 +1,8 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: "OpenSans-Bold";
-  src: url("../fonts/OpenSans-Bold.ttf");
-}
-
-@font-face {
   font-family: "OpenSans-ExtraBold";
   src: url("../fonts/OpenSans-ExtraBold.ttf");
-}
-
-@font-face {
-  font-family: "OpenSans-Regular";
-  src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 @font-face {
@@ -56,6 +46,18 @@ a {
   outline: none;
 }
 
+button {
+  outline: none;
+}
+
+button:focus {
+  border: 1px solid #cfb8a6;
+}
+
+a:focus {
+  text-decoration: underline;
+}
+
 body {
   background: url("../assets/bacground/bgn.webp");
 }
@@ -69,30 +71,10 @@ i {
   overflow: hidden;
 }
 
-/*--------------CONTAINER-----------------------*/
-
 ._container {
   width: 100%;
   max-width: 1170px;
   margin: 0px auto;
-}
-
-@media (max-width: 1200px) {
-  ._container {
-    max-width: 740px;
-  }
-}
-
-@media (max-width: 900px) {
-  ._container {
-    max-width: 860px;
-  }
-}
-
-@media (max-width: 600px) {
-  ._container {
-    max-width: 580px;
-  }
 }
 
 /*--------------------------HEADER------------------------------------*/
@@ -125,22 +107,24 @@ i {
 }
 
 .menu_item {
+  background: transparent;
   font-family: "OpenSans-Light";
   font-size: 14px;
   line-height: auto;
   padding: 25px 15px;
   border: 1px groove #f5ece5;
-}
-
-.menu_item a {
   color: #6c354c;
 }
 
-.menu_item a:hover {
-  color: #dc5e81;
+.menu_item a {
 }
 
-.active a {
+.menu_item:hover {
+  color: #dc5e81;
+  cursor: pointer;
+}
+
+.active {
   color: #dc5e81;
 }
 
@@ -215,7 +199,7 @@ i {
   border-top: none;
   z-index: 50;
   margin-top: -1px;
-  padding: 2px 14px 9px 14px;
+  padding: 2px 14px 5px 14px;
 }
 .bunner_button {
   display: inline-block;
@@ -224,13 +208,18 @@ i {
   background: #e8d6c8;
   cursor: pointer;
   border: 1px solid #cfb8a6;
-  border-radius: 50%;
+  border-radius: 100%;
+}
+
+.bunner_button:focus {
+  background: #cfb8a6;
 }
 
 .bunner_button.active {
   background: #da4271;
   border-color: #da4271;
 }
+
 /*----------------FIRST_ROW-----------------------------*/
 
 .firsr_row {
@@ -326,6 +315,7 @@ i {
   text-align: center;
   background: #da4271;
   z-index: 1000;
+  border: none;
 }
 
 .card_button:hover {
@@ -380,15 +370,15 @@ i {
 }
 
 .more_button {
-  display: inline-block;
+  background: transparent;
   font-family: "OpenSans-ExtraBold";
   font-size: 14px;
   color: #fff;
   width: 78px;
-  height: 30px;
+  height: 32px;
   cursor: pointer;
   border: 1px solid #743b56;
-  padding: 15px 0px 0px 10px;
+  padding: 0px 5px 0px 10px;
   margin: 28px 0;
 }
 
@@ -514,6 +504,9 @@ button.form_submit:hover {
   border-color: #d66767;
 }
 
+button.form_submit:focus {
+  border-color: #d66767;
+}
 /*-------ROW_3------------*/
 /*COL_1*/
 .third_row {
@@ -705,6 +698,7 @@ button.form_submit:hover {
 }
 
 .footer_text {
+  justify-self: flex-start;
   font-family: "SourceSansPro-Regular";
   font-size: 15px;
   line-height: 20px;
@@ -713,15 +707,15 @@ button.form_submit:hover {
 }
 
 .footer_button {
-  justify-self: flex-end;
-  display: inline-block;
+  background: transparent;
   font-family: "OpenSans-ExtraBold";
   font-size: 14px;
   color: #fff;
   width: 78px;
+  height: 32px;
   cursor: pointer;
   border: 1px solid #743b56;
-  padding: 15px 0px 10px 10px;
+  padding: 5px 5px 5px 10px;
   margin-top: 28px;
   justify-self: flex-end;
 }
