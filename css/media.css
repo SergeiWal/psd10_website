@@ -1,0 +1,334 @@
+/*--------------CONTAINER-----------------------*/
+@media (max-width: 1200px) {
+  ._container {
+    max-width: 740px;
+  }
+}
+
+@media (max-width: 900px) {
+  ._container {
+    max-width: 860px;
+  }
+}
+
+@media (max-width: 600px) {
+  ._container {
+    max-width: 580px;
+  }
+}
+/*--------------------------HEADER------------------------------------*/
+@media (max-width: 1200px) {
+  .header_logo {
+    font-size: 22px;
+    line-height: auto;
+  }
+
+  .menu_item {
+    font-size: 11px;
+    padding: 20px 15px;
+    padding: 15px 10px;
+  }
+
+  .header > * {
+    margin: 24px 0px;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu_item {
+    font-size: 14px;
+  }
+
+  .header_menu {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .menu_item {
+    font-size: 15px;
+    padding: 10px 3px;
+    border: none;
+  }
+  .header_menu {
+    padding: 5px;
+  }
+}
+/*-----------------BANNER--------------------*/
+@media (max-width: 1200px) {
+  .main_title {
+    font-size: 20px;
+    padding: 10px 15px 10px 10px;
+  }
+
+  .second_title {
+    font-size: 16px;
+    padding: 10px 15px 10px 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .banner_title {
+    margin: -15% 0px 0px 0px;
+  }
+
+  .banner_sides {
+    display: none;
+  }
+  .main_title {
+    padding: 5px 10px 5px 5px;
+  }
+
+  .second_title {
+    padding: 5px 10px 5px 5px;
+  }
+
+  .bunner_buttons {
+    padding: 1px 7px 3px 7px;
+  }
+  .bunner_button {
+    width: 5px;
+    height: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner_title {
+    margin: -20% 0px 0px 0px;
+  }
+  .main_title {
+    font-size: 16px;
+    padding: 5px 10px 5px 5px;
+  }
+
+  .second_title {
+    font-size: 14px;
+    padding: 5px 10px 5px 5px;
+  }
+}
+/*----------------FIRST_ROW-----------------------------*/
+@media (max-width: 1200px) {
+  .row_text {
+    font-family: "OpenSans-Light";
+    font-size: 18px;
+    line-height: auto;
+    color: #de6988;
+  }
+  .row_button {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .row_content {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .row_content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .row_text {
+    margin-top: 10px;
+  }
+}
+/*------------ROW_2------------------------*/
+@media (max-width: 1200px) {
+  .card_main_title,
+  .card_title,
+  .form_title {
+    font-size: 18px;
+  }
+  .card_main_content {
+    padding: 22px 20px 0px 20px;
+  }
+
+  .card_button {
+    width: 32px;
+    height: 32px;
+  }
+  ._card_container {
+    margin-top: -32px;
+  }
+
+  .card_text_content p {
+    margin-top: 15px;
+  }
+  .more_button {
+    width: 68px;
+    height: 25px;
+    font-size: 14px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .form_container {
+    margin-left: -20px;
+  }
+  .pre_form {
+    width: 20px;
+    transform: skewY(20deg);
+    margin-bottom: 4px;
+    margin-top: -3px;
+  }
+
+  .form_name input,
+  .form_email input {
+    width: 180px;
+    height: 24px;
+    margin-top: 15px;
+  }
+  .form_text textarea {
+    width: 180px;
+    height: 65px;
+    font-size: 15px;
+    padding-right: 30px;
+    margin-top: 15px;
+  }
+
+  button.form_submit {
+    font-size: 14px;
+    padding: 14px 18px;
+    margin-top: 15px;
+  }
+
+  .form_input_button {
+    height: 26px;
+    width: 26px;
+    margin-top: 15px;
+  }
+
+  .textarea_button {
+    margin-left: -28px;
+  }
+}
+
+@media (max-width: 900px) {
+  .form_content {
+    flex-direction: column;
+  }
+  .form {
+    margin-top: 20px;
+  }
+  .form_name input,
+  .form_email input {
+    width: 180px;
+  }
+  .form_text textarea {
+    width: 180px;
+    padding-right: 30px;
+  }
+
+  .pre_form {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .form_container {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  .form_name input,
+  .form_email input {
+    width: 305px;
+    height: 36px;
+    margin-top: 20px;
+  }
+  .form_text textarea {
+    width: 305px;
+    height: 85px;
+    padding-right: 40px;
+    margin-top: 20px;
+  }
+
+  button.form_submit {
+    margin-top: 20px;
+  }
+
+  .form_input_button {
+    height: 38px;
+    width: 38px;
+    margin-top: 20px;
+  }
+
+  .textarea_button {
+    margin-left: -40px;
+  }
+
+  .pre_form {
+    display: none;
+  }
+}
+/*-------ROW_3------------*/
+@media (max-width: 1200px) {
+  .col_header {
+    font-size: 18px;
+  }
+  .col_text_context {
+    margin-left: 20px;
+  }
+  .lorem_disc {
+    margin-left: 0px;
+  }
+  .row_button.date_button {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 900px) {
+  .info_table {
+    padding: 0px 15px 0 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .info_table {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info_table > *:not(:first-child) {
+    margin-top: 60px;
+  }
+  .info_table > *:last-child {
+    margin-bottom: 60px;
+  }
+  .col_header {
+    text-align: center;
+  }
+}
+/*-------------------------FOOTER-------------------------------*/
+@media (max-width: 1200px) {
+  .card_title.footer_title {
+    font-size: 18px;
+  }
+  .under_footer_content {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  .lower_footer_content {
+    flex-direction: column;
+    padding: 15px 15px;
+  }
+  .lower_footer_content > *:not(:first-child) {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .under_footer_content {
+    font-size: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
