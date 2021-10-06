@@ -57,7 +57,7 @@ a {
 }
 
 body {
-  background: url("../assets/bacground/bgn.png");
+  background: url("../assets/bacground/bgn.webp");
 }
 
 i {
@@ -250,7 +250,7 @@ i {
   justify-content: center;
 }
 .bunner_buttons {
-  background: url("../assets/bacground/bgn.png");
+  background: url("../assets/bacground/bgn.webp");
   margin: 0px auto;
   border: 1px groove #f5ece5;
   border-top: none;
