@@ -58,8 +58,7 @@ const slider = new Slider();
 
 document.addEventListener("DOMContentLoaded", (event) => {
   slider.startInterval();
-  const bannerButtons = [...document.querySelectorAll(".bunner_button")];
-  bannerButtons.forEach((item) => {
+  slider.buttons.forEach((item) => {
     item.addEventListener("click", slider.buttonSlideHandler);
   });
 });
