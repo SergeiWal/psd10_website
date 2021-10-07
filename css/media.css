@@ -107,6 +107,13 @@
 }
 
 @media (max-width: 600px) {
+  .banner_current {
+    height: 250px;
+  }
+  .banner_current img {
+    height: 250px;
+  }
+
   .banner_title {
     margin: -20% 0px 0px 0px;
   }

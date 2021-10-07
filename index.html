@@ -28,7 +28,11 @@
               <img src="./assets/banner/b01.webp" alt="RightBanner" />
             </div>
             <div class="banner_item banner_current _container">
-              <img src="./assets/banner/b02.webp" alt="CurrentBanner" />
+              <img  class="main_img slider_animation active_img" src="./assets/banner/b02.webp" alt="MainBanner" data-id="0">
+              <img  class="main_img slider_animation" src="./assets/banner/b02.webp" alt="MainBanner" data-id="1">
+              <img  class="main_img slider_animation" src="./assets/banner/b02.webp" alt="MainBanner" data-id="2">
+              <img  class="main_img slider_animation" src="./assets/banner/b02.webp" alt="MainBanner" data-id="3">
+              <img  class="main_img slider_animation" src="./assets/banner/b02.webp" alt="MainBanner" data-id="4">
               <div class="banner_title title">
                 <div class="main_title">VIVAMUS SITE</div>
                 <div class="second_title">NUNC DIGNISSIM RISUS IDI</div>
@@ -41,11 +45,11 @@
         </div>
         <div class="buttons_container">
           <div class="bunner_buttons">
-            <button class="bunner_button active"></button>
-            <button class="bunner_button"></button>
-            <button class="bunner_button"></button>
-            <button class="bunner_button"></button>
-            <button class="bunner_button"></button>
+            <button class="bunner_button active" data-id="0"></button>
+            <button class="bunner_button" data-id="1"></button>
+            <button class="bunner_button" data-id="2"></button>
+            <button class="bunner_button" data-id="3"></button>
+            <button class="bunner_button" data-id="4"></button>
           </div>
         </div>
         <div class="firsr_row">
@@ -399,6 +403,7 @@
         </div>
       </footer>
     </div>
+    <script src="./scripts/script.js"></script>
     <script
       src="https://kit.fontawesome.com/596c3faf39.js"
       crossorigin="anonymous"
