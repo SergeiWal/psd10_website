@@ -116,9 +116,6 @@ i {
   color: #6c354c;
 }
 
-.menu_item a {
-}
-
 .menu_item:hover {
   color: #dc5e81;
   cursor: pointer;
@@ -548,9 +545,6 @@ button.form_submit:focus {
   font-family: "OpenSans-ExtraBold";
   font-size: 22px;
   color: #591d39;
-}
-
-.col_content {
 }
 
 .content_cards {
